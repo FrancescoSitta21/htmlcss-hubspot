@@ -1,0 +1,504 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*fine reset*/
+/*inizio regole generali */
+body {
+  font-family: 'Montserrat', verdana;
+  line-height: 1.4;
+}
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+/*fine regole generali */
+/*inizio testa */
+.testa {
+  height: 70px;
+  background: #e6f9ff;
+}
+.testa-left {
+  float: left;
+  padding-top: 17px;
+  font-size: 12px;
+  color: #0059b3;
+  width: 30%;
+}
+
+.lingua-uno {
+  border-right: 2px solid black;
+  position: relative;
+  float: left;
+  padding-right: 10px;
+}
+.lingua-uno > div {
+  display: inline-block;
+}
+.mondo-testa {
+  margin-right: 4px;
+  margin-top: 10px;
+}
+.lingua-due p {
+  padding-left: 7px;
+}
+.lingua-due {
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.testa-destra li {
+  float: right;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 21px;
+}
+.testa-destra {
+  right: 0
+  top: 10%;
+}
+.testa-destra li a {
+  text-decoration: none;
+}
+.lente {
+  color: #33cfff;
+  margin-right: 10px;
+}
+.login {
+  background: white;
+  color: #ff8533;
+  padding: 5px;
+  border: 2px solid #ff8533;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+.gethub {
+  background: #ff8533;
+  padding: 5px;
+  border: 2px solid #ff8533;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: 8px;
+  color: white;
+}
+/*fine parte alta della testa*/
+hr {
+  width: 100%;
+  height: 1px;
+  color: #0059b3;
+}
+/*inizio parte bassa della testa*/
+.testa-due {
+  width: 100%;
+  margin: auto;
+  height: 40px;
+}
+.logo {
+  float: left;
+}
+.logohub {
+  width: 85px;
+  height: 35px;
+  margin: 7px 0 7px;
+}
+.menu-due {
+  float: right;
+}
+.menu-due li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 18px;
+}
+.menu-due li a {
+  text-decoration: none;
+  color: #0059b3;
+  margin-right: 6px;
+}
+
+/*fine testa */
+/*inizio titolo */
+.titolo {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: 55% 0%;
+  margin-top: 10px;
+  background-size: 1400px;
+  position: relative;
+}
+.testo-titolo p {
+
+  color: #003380;
+  padding-top: 25px;
+  top: 150px;
+  position: absolute;
+  left: 15%;
+}
+
+.tit-uno {
+  font-size: 20px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  color: #003380;
+  margin-top: 30px;
+  position: absolute;
+  left: 15%;
+}
+.testo-titolo li {
+  list-style-type: none;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 30px;
+  left: 5%;
+}
+.testo-titolo li a {
+  text-decoration: none;
+}
+.gethubdue {
+  background: #ff8533;
+  padding: 15px 20px;
+  border: 2px solid #ff8533;
+  border-radius: 6px;
+  top: 260px;
+  left: 15%;
+  color: white;
+  position: absolute;
+
+}
+.tools p {
+  font-size: 10px;
+  position: absolute;
+  top: 360px;
+  left: 15%;
+}
+/*fine titolo */
+/*inizio sottotitolo */
+.barra {
+  width: 100%;
+  height: 50px;
+  background-color: #4dffdb;
+  border-top: 2px solid #0059b3;
+  border-bottom: 2px solid #0059b3;
+}
+/*fine sottotitolo */
+/*inizio main */
+/*inizio integration */
+.corpo-centrale {
+  width: 100%;
+  background: #e6f9ff;
+}
+.integration {
+  width: 80%;
+  margin: auto;
+  background-color: #e6f9ff;
+  padding-bottom: 25px;
+}
+.integration img {
+  width: 20%;
+  height: 55%;
+  margin: 2% 40% 2%;
+}
+.integration h3 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #003380;
+}
+.integration p {
+  text-align: center;
+  font-size: 10px;
+}
+/*fine integration */
+/*inizio crm */
+.crm {
+  width: 90%;
+  margin: auto;
+  height: 200px;
+  background: white;
+}
+.immagine-crm {
+  background-color: white;
+  width: 30%;
+  float: left;
+}
+.crm img {
+  width: 112px;
+  height: 112px;
+  margin-top: 2%;
+  margin-left: 43%;
+}
+.crm li a {
+  text-decoration: none;
+  color: white;
+}
+.crm li {
+  list-style-type: none;
+}
+.crmbot {
+  padding: 12px;
+  font-size: 20px;
+  margin-left: 90px;
+  color: white;
+  background-color: #ff8533;
+  border: 1px solid #ff8533;
+  border-radius: 5px;
+}
+.testo-crm {
+  width: 60%;
+  float: right;
+  background: white;
+  margin-top: 2%;
+  position: relative;
+}
+.testo-crm p {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.testo-crm h3 , h4 {
+  color: #003380;
+}
+.testo-crm hr {
+  width: 55%;
+  color: #003380;
+  right: 6%;
+  top: 122px;
+  position: absolute;
+}
+.testo-crm li {
+  display: inline-block;
+  padding-top: 15px;
+}
+.testo-crm li a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #003380;
+}
+.testo-crm i {
+  color: orange;
+}
+/*fine crm */
+/*inizio trecol */
+.wrapper-col {
+  width: 100%;
+  background-color: #e6f9ff;
+}
+.trecol {
+  width: 90%;
+  background: #e6f9ff;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.trecol hr {
+  color: #003380;
+  width: 90%;
+  margin: 6% 5% 10%;
+}
+.trecol h5 {
+  text-align: center;
+  color: #003380;
+}
+.trecol li {
+  list-style-type: none;
+}
+.trecol li a {
+  text-decoration: none;
+  color: #003380;
+  padding-left: 10px;
+  font-size: 10px;
+}
+.trecol ul {
+  margin-top: 20px;
+  margin-left: 8px;
+  margin-bottom: 50px;
+}
+.trecol i {
+  color: #ff8533;
+}
+.trecol .more {
+  background-color: #ff8533;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-left: 20%;
+  border: 1px solid #ff8533;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.more li a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+}
+.more li {
+  list-style-type: none;
+}
+/*inizio marketing */
+.marketing {
+  width: 30%;
+  background: white;
+  margin-top: 30px;
+  float: left;
+}
+.marketing img {
+  width: 80px;
+  height: 80px;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.marketing h3 {
+  color: #003380;
+  text-align: center;
+  padding-top: 14px;
+}
+.marketing p {
+  color: #003380;
+  padding: 15px 5px 15px;
+  text-align: center;
+  font-size: 11px;
+}
+/*fine marketing */
+/*inizio sales */
+.sales {
+  width: 30%;
+  background: white;
+  margin-top: 30px;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.sales img {
+  height: 90px;
+  width: 90px;
+  margin-left: 35%;
+  margin-top: 13px;
+}
+.sales h3 {
+  color: #003380;
+  text-align: center;
+  padding-top: 10px;
+}
+.sales p {
+  color: #003380;
+  text-align: center;
+  padding: 15px 5px 15px;
+  font-size: 11px;
+}
+/*fine sales */
+/*inizio service */
+.service {
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-top: 30px;
+}
+.service img {
+  height: 90px;
+  width: 90px;
+  margin-left: 35%;
+  margin-top: 13px;
+}
+.service h3 {
+  text-align: center;
+  color: #003380;
+  padding-top: 10px;
+}
+.service p {
+  font-size: 11px;
+  padding: 15px 5px 15px;
+  color: #003380;
+  text-align: center;
+
+}
+/*fine service */
+/*fine trecol */
+/*inizio numeri*/
+.info-num {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-color: #2eb8b8;
+}
+.numeri {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  color: white;
+  background: #2eb8b8;
+  padding-top: 20px;
+}
+.numeri p {
+  font-size: 8px;
+  text-align: center;
+  padding-top: 13px;
+}
+/*inizio loghi*/
+.logo-num {
+  background: #2eb8b8;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+.logo-num h4 {
+  color: white;
+}
+.agency {
+  width: 25%;
+  float: left;
+}
+.spots {
+  width: 25%;
+  float:left;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+
+}
+.academy {
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+}
+.inbound {
+  width: 25%;
+  float: left;
+}
+.connect {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  padding-top: 7px;
+}
+.globe {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  padding-top: 7px;
+}
+.followers {
+  width: 25%;
+  float: left;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  padding-top: 7px;
+}
+.small {
+  width: 25%;
+  float: left;
+  border-top: 1px solid white;
+  padding-top: 7px;
+}
+
+/*fine loghi */
+/*fine numeri*/
